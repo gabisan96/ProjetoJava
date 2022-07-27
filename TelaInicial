@@ -1,0 +1,215 @@
+
+package view;
+
+public class Principal extends javax.swing.JFrame {
+
+    public Principal() {
+        initComponents();
+    }
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        menuPrincipal = new javax.swing.JMenuBar();
+        Cadastros = new javax.swing.JMenu();
+        agendaContatos = new javax.swing.JMenuItem();
+        CadastroFornecedores = new javax.swing.JMenu();
+        Fornecedor = new javax.swing.JMenuItem();
+        GrupoEconomico = new javax.swing.JMenuItem();
+        Clientes = new javax.swing.JMenuItem();
+        jMenu1 = new javax.swing.JMenu();
+        jMenu3 = new javax.swing.JMenu();
+        jMenu4 = new javax.swing.JMenu();
+        jMenu5 = new javax.swing.JMenu();
+        jMenu6 = new javax.swing.JMenu();
+        jMenu7 = new javax.swing.JMenu();
+        jMenu8 = new javax.swing.JMenu();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        menuPrincipal.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                menuPrincipalMouseDragged(evt);
+            }
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                menuPrincipalMouseMoved(evt);
+            }
+        });
+        menuPrincipal.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                menuPrincipalMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                menuPrincipalMouseExited(evt);
+            }
+        });
+
+        Cadastros.setText("Cadastros");
+        Cadastros.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                CadastrosMouseDragged(evt);
+            }
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                CadastrosMouseMoved(evt);
+            }
+        });
+        Cadastros.addMenuDragMouseListener(new javax.swing.event.MenuDragMouseListener() {
+            public void menuDragMouseDragged(javax.swing.event.MenuDragMouseEvent evt) {
+            }
+            public void menuDragMouseEntered(javax.swing.event.MenuDragMouseEvent evt) {
+                CadastrosMenuDragMouseEntered(evt);
+            }
+            public void menuDragMouseExited(javax.swing.event.MenuDragMouseEvent evt) {
+            }
+            public void menuDragMouseReleased(javax.swing.event.MenuDragMouseEvent evt) {
+            }
+        });
+
+        agendaContatos.setText("Agenda de contatos");
+        agendaContatos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                agendaContatosActionPerformed(evt);
+            }
+        });
+        Cadastros.add(agendaContatos);
+
+        CadastroFornecedores.setText("Fornecedores");
+
+        Fornecedor.setText("Fornecedor");
+        Fornecedor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                FornecedorActionPerformed(evt);
+            }
+        });
+        CadastroFornecedores.add(Fornecedor);
+
+        GrupoEconomico.setText("Grupo Economico");
+        GrupoEconomico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                GrupoEconomicoActionPerformed(evt);
+            }
+        });
+        CadastroFornecedores.add(GrupoEconomico);
+
+        Cadastros.add(CadastroFornecedores);
+
+        Clientes.setText("Clientes");
+        Clientes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ClientesActionPerformed(evt);
+            }
+        });
+        Cadastros.add(Clientes);
+
+        menuPrincipal.add(Cadastros);
+
+        jMenu1.setText("Entrada/Saida");
+        menuPrincipal.add(jMenu1);
+
+        jMenu3.setText("Compras");
+        menuPrincipal.add(jMenu3);
+
+        jMenu4.setText("Financeiro");
+        menuPrincipal.add(jMenu4);
+
+        jMenu5.setText("Consultas");
+        menuPrincipal.add(jMenu5);
+
+        jMenu6.setText("Relatórios");
+        menuPrincipal.add(jMenu6);
+
+        jMenu7.setText("Configurações");
+        menuPrincipal.add(jMenu7);
+
+        jMenu8.setText("Ajuda");
+        menuPrincipal.add(jMenu8);
+
+        setJMenuBar(menuPrincipal);
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1126, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 589, Short.MAX_VALUE)
+        );
+
+        pack();
+    }// </editor-fold>                        
+
+    private void agendaContatosActionPerformed(java.awt.event.ActionEvent evt) {                                               
+        // TODO add your handling code here:
+    }                                              
+
+    private void GrupoEconomicoActionPerformed(java.awt.event.ActionEvent evt) {                                               
+        // TODO add your handling code here:
+    }                                              
+
+    private void menuPrincipalMouseEntered(java.awt.event.MouseEvent evt) {                                           
+        
+    }                                          
+
+    private void CadastrosMouseDragged(java.awt.event.MouseEvent evt) {                                       
+       
+    }                                      
+
+    private void CadastrosMouseMoved(java.awt.event.MouseEvent evt) {                                     
+       
+    }                                    
+
+    private void FornecedorActionPerformed(java.awt.event.ActionEvent evt) {                                           
+        // TODO add your handling code here:
+    }                                          
+
+    private void CadastrosMenuDragMouseEntered(javax.swing.event.MenuDragMouseEvent evt) {                                               
+        
+    }                                              
+
+    private void menuPrincipalMouseMoved(java.awt.event.MouseEvent evt) {                                         
+      
+     
+    }                                        
+
+    private void menuPrincipalMouseDragged(java.awt.event.MouseEvent evt) {                                           
+        // TODO add your handling code here:
+    }                                          
+
+    private void menuPrincipalMouseExited(java.awt.event.MouseEvent evt) {                                          
+        // TODO add your handling code here:
+    }                                         
+
+    private void ClientesActionPerformed(java.awt.event.ActionEvent evt) {                                         
+      new cadastroClientes().setVisible(true);
+      
+       
+    }                                        
+
+    public static void main(String args[]) {
+    
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Principal().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JMenu CadastroFornecedores;
+    private javax.swing.JMenu Cadastros;
+    private javax.swing.JMenuItem Clientes;
+    private javax.swing.JMenuItem Fornecedor;
+    private javax.swing.JMenuItem GrupoEconomico;
+    private javax.swing.JMenuItem agendaContatos;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenu jMenu5;
+    private javax.swing.JMenu jMenu6;
+    private javax.swing.JMenu jMenu7;
+    private javax.swing.JMenu jMenu8;
+    private javax.swing.JMenuBar menuPrincipal;
+    // End of variables declaration                   
+}
