@@ -1,0 +1,42 @@
+
+package Conection;
+
+import DTO.CadastroDTO;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import javax.swing.JOptionPane;
+
+
+public class CadastroDAO {
+    
+    
+    Connection conn;
+    PreparedStatement pstm;
+    public void cadastrocliente(CadastroDTO objcadastrodto){
+        String sql = "insert into cadastro_clientes (nome, cpf, rg, email, telefone, cep, endereco, numero_rua, bairro, cidade, uf) values (?,?,?,?,?,?,?,?,?,?,?)";
+        
+        conn = new ConexaoDAO().conectaBD();
+        
+        try {
+            pstm = conn.prepareStatement(sql);
+            pstm.setString(1, objcadastrodto.getNome_cadastro());
+            pstm.setInt(2, objcadastrodto.getCpf());
+            pstm.setInt(3, objcadastrodto.getRg());
+            pstm.setString(4, objcadastrodto.getEmail());
+            pstm.setLong(5, objcadastrodto.getTelefone());
+            pstm.setInt(6, objcadastrodto.getCep());
+            pstm.setString(7, objcadastrodto.getEndereco_cadastro());
+            pstm.setInt(8, objcadastrodto.getNumero());
+            pstm.setString(9, objcadastrodto.getBairro());
+            pstm.setString(10, objcadastrodto.getCidade());
+            pstm.setString(11, objcadastrodto.getUf());
+            
+            pstm.execute();
+            pstm.close();
+            
+        } catch (Exception error) {
+            JOptionPane.showMessageDialog(null, "CadastroDAO" + error);
+        }
+    }
+    
+}
