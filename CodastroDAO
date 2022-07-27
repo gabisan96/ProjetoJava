@@ -1,0 +1,115 @@
+
+package DTO;
+public class CadastroDTO {
+    
+   private String nome_cadastro, endereco_cadastro, email, bairro, cidade, uf;
+   private Integer cpf, rg, telefone, cep, numero;
+
+   
+    public String getNome_cadastro() {
+        return nome_cadastro;
+    }
+
+    public void setNome_cadastro(String nome_cadastro) {
+        this.nome_cadastro = nome_cadastro;
+    }
+    
+    public String getEndereco_cadastro() {
+        return endereco_cadastro;
+    }
+
+    public void setEndereco_cadastro(String endereco_cadastro) {
+        this.endereco_cadastro = endereco_cadastro;
+    }
+    
+    public String getEmail() {
+        return email;
+    }
+
+ 
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+ 
+    public String getBairro() {
+        return bairro;
+    }
+
+
+    public void setBairro(String bairro) {
+        this.bairro = bairro;
+    }
+
+ 
+    public String getCidade() {
+        return cidade;
+    }
+
+  
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+
+  
+    public String getUf() {
+        return uf;
+    }
+
+    public void setUf(String uf) {
+        this.uf = uf;
+    }
+
+    
+    public Integer getCpf() {
+        return cpf;
+    }
+
+   
+    public void setCpf(Integer cpf) {
+        this.cpf = cpf;
+    }
+
+
+    public Integer getRg() {
+        return rg;
+    }
+
+  
+    public void setRg(Integer rg) {
+        this.rg = rg;
+    }
+
+  
+    public Integer getTelefone() {
+        return telefone;
+    }
+
+   
+    public void setTelefone(Integer telefone) {
+        this.telefone = telefone;
+    }
+
+  
+    public Integer getCep() {
+        return cep;
+    }
+
+   
+    public void setCep(Integer cep) {
+        this.cep = cep;
+    }
+
+    
+    public Integer getNumero() {
+        return numero;
+    }
+
+  
+    public void setNumero(Integer numero) {
+        this.numero = numero;
+    }
+   
+   
+    
+}
